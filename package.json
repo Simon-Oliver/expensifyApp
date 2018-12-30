@@ -4,7 +4,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buildCount": "npx babel src/playground/counterApp.js  --out-file=public/scripts/app.js --presets=@babel/env,@babel/react --watch",
     "build": "webpack",
     "dev-server": "webpack-dev-server --mode=development --host 0.0.0.0"
   },
@@ -40,6 +39,7 @@
     "react-dom": "^16.7.0",
     "react-modal": "^3.8.1",
     "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
     "validator": "^10.10.0"
   },
   "description": ""
