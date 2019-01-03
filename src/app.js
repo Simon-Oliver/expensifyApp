@@ -27,7 +27,7 @@ store.dispatch(
     createdAt: 100
   })
 );
-store.dispatch(setTextFilter('ele'));
+store.dispatch(setTextFilter('bill'));
 
 const state = store.getState();
 const visiblenexpenses = getVisibleExpenses(state.expenses, state.filters);
